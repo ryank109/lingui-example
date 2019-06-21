@@ -18,6 +18,15 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
+	"lingui": {
+		"fallbackLocale": "en",
+		"format": "minimal",
+		"sourceLocale": "en",
+		"localeDir": "locale",
+		"srcPathDirs": [
+			"src"
+		]
+	},
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
