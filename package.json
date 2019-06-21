@@ -1,0 +1,34 @@
+{
+  "name": "lingui-test",
+  "version": "1.0.0",
+  "description": "lingui test",
+  "main": "index.js",
+  "scripts": {
+    "add-locale": "lingui add-locale",
+    "extract-i18n": "lingui extract --clean",
+    "start": "lingui compile && webpack-dev-server --config ./webpack.config.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lingui/core": "^2.8.3",
+    "@lingui/macro": "^2.8.3",
+    "@lingui/react": "^2.8.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@lingui/cli": "^2.8.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-macros": "^2.6.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  }
+}

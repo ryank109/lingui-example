@@ -1,0 +1,29 @@
+{
+  "Is this working?": {
+    "translation": "",
+    "origin": [
+      [
+        "src/main.jsx",
+        24
+      ]
+    ]
+  },
+  "trans1": {
+    "defaults": "This should be the 1st.",
+    "origin": [
+      [
+        "src/main.jsx",
+        13
+      ]
+    ]
+  },
+  "trans2": {
+    "defaults": "This should be the 1st of {count, plural, =0 {zero} =1 {one} =2 {two} =3 {three} other {#th}}",
+    "origin": [
+      [
+        "src/main.jsx",
+        18
+      ]
+    ]
+  }
+}
